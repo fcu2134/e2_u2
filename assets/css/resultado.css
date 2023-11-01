@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 2%;
+    padding: 1%;
+    width: 100%;
+}
+
+#container {
+    max-width: 500px;
+    margin: 2% auto;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(48, 35, 35, 0.1);
+    border-radius: 10px;
+
+}
+
+h2 {
+    color: #b32020;
+   
+}
+
+.table {
+    width: 100%;
+    margin: 2%;
+    
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e9e9e9;
+    color: #080808;
+}
+
+
+#aprobadoMensaje {
+    background-color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#nombre {
+    font-weight: bold;
+    color: #007bff;
+}

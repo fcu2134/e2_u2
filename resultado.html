@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados del Calculador de Promedio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets\css\resultado.css" type="text/css">
+</head>
+
+<body id="container">
+  <div id="resultado">
+    <h2>Resultados:</h2>
+    <p><strong>Nombre del estudiante:</strong> <span id="nombre"></span></p>
+    <p><strong>Asignatura:</strong> <span id="asignatura"></span></p>
+
+   
+
+    <h3>Notas por Unidad:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Unidad</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+                <th scope="col">Ponderación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unidad 1</td>
+                <td><span id="nota1">0</span></td>
+                <td><span id="nota2">0</span></td>
+                <td><span id="nota1Ponde">0</span></td>
+            </tr>
+            <tr>
+                <td>Unidad 2</td>
+                <td><span id="nota3">0</span></td>
+                <td><span id="nota4">0</span></td>
+                <td><span id="nota2Ponde">0</span></td>
+            </tr>
+            <tr>
+                <td>Unidad 3</td>
+                <td><span id="nota5">0</span></td>
+                <td><span id="nota6">0</span></td>
+                <td><span id="nota3Ponde">0</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>promedio:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Unidad</th>
+                <th scope="col">Ponderación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unidad 1</td>
+                <td><span id="u1_p">0</span></td>
+            </tr>
+            <tr>
+                <td>Unidad 2</td>
+                <td><span id="u2_p">0</span></td>
+            </tr>
+            <tr>
+                <td>Unidad 3</td>
+                <td><span id="u3_p">0</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="promedioFinal"></p>
+    <p id="aprobadoMensaje"></p>
+  </div>
+
+  <script src="./assets/js/resultado.js"></script>
+</body>
+
+</html>

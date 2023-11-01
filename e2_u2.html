@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculador de Promedio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/e2_u2.css" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+        <div class="container-fluid">
+            <td class="navbar-brand"><img src="assets\img\descargar.png" id="img1"></td>
+    <!--segunda parte del encabezado.-->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">admision</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://intranet.cftestatalaricayparinacota.cl"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">carreras
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contactanos </a>
+                    </li>
+                    </a>
+                </ul>
+            
+                <nav class="navbar bg-body-tertiary" id="buscar">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">buscar</button>
+                      </form>
+                    </div>
+                  </nav>
+         </div>
+    </nav>
+    </div>
+
+
+
+    <h1 class="form-label">Calculador de Promedio</h1>
+
+    <form class="row mb-4" id="formularioNotas">
+        <div class="row mb-4" id="div_nombre">
+            <label for="nombre" class="form-label">nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+
+
+        <table class="table"   id="table">
+            <thead>
+                <td><p id="p">  tecnologias web</p></td>
+
+                <tr>
+
+                    <th scope="col">Unidad</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Unidad 1</td>
+                    <td><input type="number" class="form-control" id="nota1" min="0" max="7" step="0.1" required></td>
+                    <td><input type="number"class="form-control" id="nota2" min="0" max="7" step="0.1" required></td>
+                    
+                </tr>
+                <tr>
+                    <td>Unidad 2</td>
+                    <td><input type="number" class="form-control" id="nota3" min="0" max="7" step="0.1" required></td>
+                    <td><input type="number" class="form-control" id="nota4" min="0" max="7" step="0.1" required></td>
+                    
+                </tr>
+                <tr>
+                    <td>Unidad 3</td>
+                    <td><input type="number" class="form-control" id="nota5" min="0" max="7" step="0.1" required></td>
+                    <td><input type="number" class="form-control" id="nota6" min="0" max="7" step="0.1" required></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="button"id="boton" class="btn btn-secundary btn-lg" onclick=calcular()>Calcular Promedio</button>
+        <div id="resultados"></div>
+
+       
+    </form> 
+    <script type="text/javascript"src="./assets/js/e2_u2.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    margin-top:-5%; 
+    width: 100%;
+    background-color: beige;
+    
+}
+h1{
+    text-align: center;
+    margin:5%;
+  
+}
+
+#div_nombre {
+    width: 50%;
+    background-color: rgb(236, 227, 227);
+    margin-left: 25%;
+
+}
+#nombre{
+    background-color: aquamarine;
+}
+#img1{
+    width: 10%;
+    margin: 0%;
+}
+
+#buscar{
+   margin-left: 30%;
+   
+}
+#nav{
+    margin: 5%;
+    background-color: rgb(249, 146, 10);
+
+}
+#p{
+    width: 100%;
+    margin-left: 85%;
+}
+
+#table{
+    width: 50%;
+    text-align: center;
+   margin-left: 25%;
+    padding-right: 30%;
+    margin-top:10%;
+    background-color: rgb(65, 65, 65);
+    color: rgb(252, 252, 252);
+}
+#boton{
+    margin-left:40% ;
+
+}
