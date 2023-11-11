@@ -10,7 +10,7 @@ const nota6 = parseFloat(urlParams.get("nota6"));
 
 
 const ponderacionUnidad1 = (nota1 * 0.12  + nota2 * 0.21).toFixed(1);
-const ponderacionUnidad2 = (nota3 * 0.21  + nota4 * 0.21) .toFixed(1);
+const ponderacionUnidad2 = (nota3 * 0.12  + nota4 * 0.21) .toFixed(1);
 const ponderacionUnidad3 = (nota5 * 0.12 + nota6 * 0.21  ).toFixed(1);
 
 const promedioPonderado = (parseFloat(ponderacionUnidad1) + parseFloat(ponderacionUnidad2) + parseFloat(ponderacionUnidad3)).toFixed(2);
