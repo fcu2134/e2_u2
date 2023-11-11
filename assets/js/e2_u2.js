@@ -13,6 +13,6 @@ function calcular() {
     }
 
     
-    const url = `resultado.html?nombre=${nombre}&nota1=${nota1}&nota2=${nota2}&nota3=${nota3}&nota4=${nota4}&nota5=${nota5}&nota6=${nota6}&promedio=${promedioPonderado}`;
+    const url = `resultado.html?nombre=${nombre}&nota1=${nota1}&nota2=${nota2}&nota3=${nota3}&nota4=${nota4}&nota5=${nota5}&nota6=${nota6}`;
     window.location.href = url;
 }
